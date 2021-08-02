@@ -1,0 +1,224 @@
+*{
+
+}
+
+h1, h4 {
+font-family: Avenir;
+font-style: normal;
+font-weight: 800;
+font-size: 51px;
+line-height: 1em;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+
+h2, h3, a {
+font-family: Avenir Next Condensed;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.075em;
+text-transform: uppercase;
+
+color: #868686;
+}
+
+h3 {
+	color: white;
+}
+
+h3.title {
+	border: 1px solid white;
+	padding: 5px;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: left;
+}
+
+p {
+font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 23px;
+text-align: center;
+color: #868686;
+}
+
+body {
+	background-image: url('../images/background.png');
+	position: relative;
+	background-repeat: no-repeat;
+	background-color: #241E2A;
+	width: 100%;
+	background-size: contain;
+}
+
+.menu, .menufooter {
+	margin: 0 0 150px 0;
+}
+
+.menufooter {
+	margin: 0;
+}
+
+.menu ul, .menufooter ul {
+	text-align: right;
+}
+
+.menu li, .menufooter li {
+	font-family: 'Roboto';
+	font-size: 11px;
+	display: inline;
+}
+
+.menu li a, .menufooter li a{
+  color: #ff4081;
+  padding: 0.5em 0.5em;
+}
+
+.portfoliotitle {
+	margin: 0 0 100px 0;
+}
+
+.intro {
+	margin: 0 0 20em 0;
+}
+
+.project {
+	margin: 0 0 10em 0;
+}
+
+.lessmargin {
+	margin: 0 0 100px 0 !important;
+}
+
+.project h1, .project p{
+	text-align: left;
+}
+
+.btn, .btn-large {
+	border-radius: 30px;
+}
+
+.btn {
+	border: 1px solid #ff4081;
+	background-color: transparent;
+}
+
+.btn-large{
+	border: 1px solid #241d2a;
+;
+}
+
+a.btn, a.btn-large {
+	text-transform: uppercase;
+	font-family: Avenir Next Condensed !important;
+	color: #202020;
+}
+
+a.btn {
+	color: #ff4081;
+}
+
+.btn:hover, .btn-large:hover {
+	background-color: #FF047C !important;
+	border: 1px solid #241d2a;
+}
+
+.projectsample img{
+	max-width: 100%;
+	box-shadow: rgba(21, 21, 39, 1) 0px 50px 100px -20px, rgba(0, 0, 0, 1) 0px 30px 60px -30px;
+}
+
+.productlogo img {
+	box-shadow: none;
+}
+
+.footer {
+	background-color: black;
+}
+
+a.active {
+	border: 1px solid #ff4081;
+	padding: 0.5em 0.75em;
+}
+
+a:hover {
+  background-color: #FF047C;
+  color: black !important;
+}
+
+
+
+.row.footer {
+	margin-bottom: 0 !important;
+}
+
+.container {
+	width: 80%;
+}
+
+/** CASE STUDY **/
+
+body.casestudy {
+	background-color: #241E2A;
+	background-image: none;
+}
+
+
+.project.casestudy h2 {
+	text-align: left;
+}
+
+.projectsample.casestudy {
+	padding: 0 20px 0 0 !important;
+	margin: 0 0 1em 0;
+}
+
+.projectsample.casestudy img {
+		max-width: 100%;
+}
+
+.extraspace {
+	margin-bottom: 50px ;
+}
+
+.footer img {
+	width: 30px;
+}
+
+.footerextraspace {
+	margin: 3px 0 0 0;
+}
+
+.icons {
+	padding: 10px 0 !important;
+}
+
+.icons a:hover{
+	background-color: black;
+}
+
+.cta {
+	margin: 5em 0 0 0;
+}
+
+.project .btn {
+	margin: 2em 0 5em 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
+	background-color: #231f29;
+}
