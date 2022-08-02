@@ -222,3 +222,19 @@ body.casestudy {
 .btn:focus, .btn-large:focus, .btn-small:focus, .btn-floating:focus {
 	background-color: #231f29;
 }
+
+.rasab-bc img {
+	width:  100%;
+}
+
+.no-shadow.projectsample img {
+	box-shadow: none !important;
+}
+
+.logo-1845 img {
+	width:  60%;
+}
+
+.twobuttons {
+	margin: 2em 0 0 0 !important;
+}
